@@ -40,7 +40,7 @@ map.on("load", () => {
   // Add a data source from a GeoJSON file
   map.addSource("buildings-data", {
     type: "geojson",
-    data: "https://raw.githubusercontent.com/JessicaCHuang26/Lab-2-Repo/a54f390e0b76778a7536477c7afa8f616a27e8d9/buildings%20copy.geojson", // Your URL to your buildings geojson file
+    data: "https://JessicaCHuang26.github.io/Lab-2-Repo/buildings%20copy.geojson", // Your URL to your buildings geojson file
   });
   map.addLayer({
     id: "buildings-point",
